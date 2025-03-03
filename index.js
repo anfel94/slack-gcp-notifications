@@ -1,5 +1,5 @@
 const IncomingWebhook = require('@slack/client').IncomingWebhook;
-const SLACK_WEBHOOK_URL = "https://hooks.slack.com/services/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"
+const SLACK_WEBHOOK_URL = "https://hooks.slack.com/services/"
 const webhook = new IncomingWebhook(SLACK_WEBHOOK_URL);
 
 module.exports.subscribe = async (event) => {
